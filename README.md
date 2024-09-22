@@ -72,6 +72,7 @@ Each of these databases will require a slightly different setup, and may require
  - [`MySQLdb`](http://mysql-python.sourceforge.net/MySQLdb.html?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMML0232ENSkillsNetwork837-2023-01-01)
 
 
+```python
 # Imports
 import sqlite3 as sq3
 import pandas.io.sql as pds
