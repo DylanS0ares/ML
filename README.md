@@ -7,12 +7,12 @@ CSV Files :
   Comma-separated(CSV) files consist of rows of data , separated by comma. In Pandas , CSV files can typically be read using just a few lines of code.
 
 ## Import the data
-
-  ```import pandas as pd
+```python
+  import pandas as pd
    filepath= 'data/iris_data.csv'
    data = pd.read_csv(filepath)
-   print(data.iloc[:5])```
-
+   print(data.iloc[:5])
+```
 
 ## Reading CSV Files: Useful Arguments
 
