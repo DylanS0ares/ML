@@ -138,7 +138,7 @@ for index, observations in enumerate(observations_generator):
         print(f'Observations index: {index}')
         display(observations)
 ```
-In sequence, the analysis in statistics was introduced using SQL and NoSQL. Finally, quartiles were discussed, as shown in the code above.
+In sequence, the analysis in statistics was introduced using SQL and NoSQL. Finally, quartiles were discussed, as shown in the code bellow.
 
 ``` python
 import numpy as np
