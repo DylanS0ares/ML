@@ -16,6 +16,7 @@ CSV Files :
 
 ## Reading CSV Files: Useful Arguments
 
+``` python
     #  Different delimiters - tab-separeted file (.tsv)
      data = pd.read_csv(filepath,sep='\t')
     #  Different delimiters - space-separated file:
@@ -26,22 +27,23 @@ CSV Files :
      data = pd.read_csv(filepath, names=['Name1','Name2'])
     #Custom missing values:
      data = pd.read_csv(filepath,na_values=['NA',99])
-
+```
 
 Json Files:
   Javascript Object Notation(JSON) files are a standard way to store data across plataforms. JSON Files are very similar in structure to python dictionaries.
   # Read JSON file as dataframe
+  ``` python
     # data = pd.read_json(file_path)
     # # Write dataframe file to json
     # data.to_json('outputfile.json')
-
+```
 The next step was to understand how databases work, and IBM provided examples that used Jupyter.However, I had to make changes to python code, because it didn't work well.
 
 ### Learning Objective(s)
 
  - Create a SQL database connection to a sample SQL database, and read records from that database
  - Explore common input parameters
-
+```
 ### Packages
 
  - [Pandas](https://pandas.pydata.org/pandas-docs/stable/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMML0232ENSkillsNetwork837-2023-01-01)
