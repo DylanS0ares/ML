@@ -30,4 +30,7 @@ CSV Files :
 
 Json Files:
   Javascript Object Notation(JSON) files are a standard way to store data across plataforms. JSON Files are very similar in structure to python dictionaries.
-  
+  # Read JSON file as dataframe
+    # data = pd.read_json(file_path)
+    # # Write dataframe file to json
+    # data.to_json('outputfile.json')
