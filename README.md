@@ -138,3 +138,41 @@ for index, observations in enumerate(observations_generator):
         print(f'Observations index: {index}')
         display(observations)
 ```
+In sequence, the analysis in statistics was introduced using SQL and NoSQL. Finally, quartiles were discussed, as shown in the code above.
+
+``` python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Creating a DataFrame from a dictionary with only numerical data
+data = {
+    'Age': [25, 30, 35, 40, 22, 28, 34, 60, 80, 20]
+}
+
+df = pd.DataFrame(data)
+
+# Calculate quartiles
+q25, q50, q75 = np.percentile(df['Age'], [25, 50, 75])
+iqr = q75 - q25
+
+# Calculate the min/max limits to be considered an outlier
+min_limit = q25 - 1.5 * iqr
+max_limit = q75 + 1.5 * iqr
+
+# Print quartiles and limits
+print(f"Min Limit: {min_limit}")
+print(f"Q25: {q25}")
+print(f"Q50: {q50}")
+print(f"Q75: {q75}")
+print(f"Max Limit: {max_limit}")
+
+# Create a boxplot
+plt.figure(figsize=(8, 5))
+sns.boxplot( x='Age',data=df)
+plt.title('Boxplot of Age')
+plt.ylabel('Age')
+plt.grid(True)
+plt.show()
+```
