@@ -72,8 +72,7 @@ Each of these databases will require a slightly different setup, and may require
  - [`SQLAlchemy`](https://www.sqlalchemy.org/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMML0232ENSkillsNetwork837-2023-01-01) (most common)
  - [`psycopg2`](http://initd.org/psycopg/?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMML0232ENSkillsNetwork837-2023-01-01)
  - [`MySQLdb`](http://mysql-python.sourceforge.net/MySQLdb.html?utm_medium=Exinfluencer&utm_source=Exinfluencer&utm_content=000026UJ&utm_term=10006555&utm_id=NA-SkillsNetwork-Channel-SkillsNetworkCoursesIBMML0232ENSkillsNetwork837-2023-01-01)
-
-
+```
 ```python
 # Imports
 import sqlite3 as sq3
@@ -138,3 +137,4 @@ for index, observations in enumerate(observations_generator):
     if index < 5:
         print(f'Observations index: {index}')
         display(observations)
+```
