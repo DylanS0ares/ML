@@ -8,10 +8,10 @@ CSV Files :
 
 ## Import the data
 
-   import pandas as pd
+  ```import pandas as pd
    filepath= 'data/iris_data.csv'
    data = pd.read_csv(filepath)
-   print(data.iloc[:5])
+   print(data.iloc[:5])```
 
 
 ## Reading CSV Files: Useful Arguments
