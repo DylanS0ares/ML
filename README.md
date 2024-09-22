@@ -1,7 +1,7 @@
 # ML
 Exploring Data Retrieval and Machine Learning with Pandas
 
-First of all, let's introduce some types of archives that it can be use from pandas with rows and columns.
+First of all, let's introduce some types of files that it can be use with pandas.
 
 CSV Files :
   Comma-separated(CSV) files consist of rows of data , separated by comma. In Pandas , CSV files can typically be read using just a few lines of code.
