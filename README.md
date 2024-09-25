@@ -1,4 +1,4 @@
-# Machine Learning
+# Data Analysis Introduction
 Exploring Data Retrieval and Machine Learning with Pandas
 
 First of all, let's introduce some types of files that it can be use with pandas.
